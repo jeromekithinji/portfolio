@@ -12,23 +12,23 @@ const Experience = () => {
         </p>
         <div className="experience__content">
             <div className="experience__content-marquee">
-                {/* <Marquee
+                <Marquee
                     gradient={false}
-                    speed={100}
-                    pauseOnClick={false}
-                    // pauseOnHover={true}
-                    autoFill={true}
+                    speed={80}
+                    pauseOnClick={true}
+                    pauseOnHover={true}
+                    // autoFill={true}
                     delay={0}
                     play={true}
                     direction="right"
                 >
                     {skillsData.map((skill, id) => (
-                        <div className="skill--box" key={id} >
-                            <img className='skill-image' src={skillsImage(skill)} alt={skill} />
-                            <p>{skill}</p>
+                        <div className="skillBox" key={id} >
+                            <img className='skillBox-image' src={skillsImage(skill)} alt={skill} />
+                            <p className='skillBox-text'>{skill}</p>
                         </div>
                     ))}
-                </Marquee> */}
+                </Marquee>
             </div>
         </div>
     </div>
