@@ -1,0 +1,157 @@
+// Navbar.scss
+@import "../../Assets/styles/variables";
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 17%;
+    height: 100vh;
+    background-color: $primary-color;
+    color: $text-color;
+    position: fixed;
+    border-right: 2px solid $text-color;
+
+    &__header {
+        border-bottom: 3px solid $text-color;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        padding: 30px 20px 30px 20px;
+        gap: 6px;
+
+        &-name {
+            text-decoration: none;
+            color: $text-color;
+            font-size: 52px;
+            font-size: 1.8rem;
+        }
+
+        &-title {
+            font-size: 25px;
+            font-size: 1rem;
+        }
+    }
+
+    &__links-list {
+        list-style-type: none;
+        width: 100%;
+    }
+
+    &__link {
+        width: 100%;
+        justify-content: flex-start;
+
+        &:hover {
+            transition: all 0.3s ease-out;
+            border-left: 6px solid $text-color;
+        }
+
+        &-content {
+            color: $text-color;
+            text-decoration: none;
+            font-size: medium;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0px 10px 20px;
+
+            &:hover {
+                border-top: 0.5px solid $text-color;
+                border-bottom: 0.5px solid $text-color;
+                cursor: url(../../Assets/images/rocket_icon.png) 15 15,
+                    pointer;
+            }
+        }
+
+        &-icon {
+            font-size: 20px;
+            padding-right: 30px;
+            object-fit: contain;
+            height: 25px;
+        }
+    }
+
+    &__collapsed {
+        background-color: $primary-color;
+        position: fixed;
+        top: 0px;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        padding: 5px 0px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+        // z-index: 999;
+        // box-shadow: 0 2px 5px 0 rgb(0,80,134), 0 2px 10px 0 rgb(0,80,134);
+        
+
+        &-icon {
+            font-size: 40px;
+            color: $text-color;
+        }
+
+        &__header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &-name {
+                text-decoration: none;
+                color: $text-color;
+                font-size: 52px;
+                font-size: 1.8rem;
+            }
+
+            &-title {
+                font-size: 25px;
+                font-size: 0.8rem;
+                color: $text-color;
+            }
+        }
+    }
+
+    &__backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); // Adjust the opacity as needed
+        z-index: 1; // Adjust the z-index as needed
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar {
+        transition: 1s;
+        transform: translateX(-100vh);
+        width: 200px;
+        z-index: 1;
+        /* transition: all 0.5s ease-in-out 0.5s;  */
+
+        &__button {
+            display: block;
+            opacity: 1;
+        }
+
+        &__collapsed {
+            display: flex;
+        }
+    }
+
+    .responsive_nav {
+        transform: none;
+    }
+
+    .show {
+        transform: none;
+    }
+
+}
+
+#burger-menu {
+    display: none;
+}

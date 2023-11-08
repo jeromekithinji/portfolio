@@ -1,0 +1,131 @@
+/* .portfolio__card {
+    width: 400px;
+    height: 400px;
+    margin: 1rem 1rem 1rem 1rem;
+    perspective: 1500px;
+}
+.portfolio__card .card__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.8s cubic-bezier(0.75, 0, 0.85, 1);
+}
+.portfolio__card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.09);
+    transform: scale3d(1.008, 1.008, 1);
+}
+
+.details {
+    display: none;
+}
+.details:checked ~ .card__content {
+    transform: rotateY(180deg);
+}
+
+.card__front,
+.card__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 6px;
+}
+.card__front .card__inner,
+.card__back .card__inner {
+    height: 100%;
+    display: grid;
+    padding: 1.5em;
+    transform: translateZ(80px) scale(0.94);
+}
+
+.card__front {
+    background-position-x: 2400.5rem;
+    background-color: #fff;
+    background-size: cover;
+}
+.card__front:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 6px;
+    backface-visibility: hidden;
+}
+.card__front .card__inner {
+    grid-template-rows: 5fr 1fr 1fr 2fr 1fr;
+    justify-items: center;
+}
+.card__front .card__inner .background-image {
+    object-fit: cover;
+}
+.card__front h2 {
+    grid-row: 4;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+.card__front .tech_Stack {
+    grid-row: 5;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 2.5rem;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.card__front .tech_Stack i {
+    margin: 0 7px;
+}
+
+.card__back {
+    transform: rotateY(180deg);
+    background-color: #fff;
+    border: 2px solid #f0f0f0;
+}
+.card__back .card__inner {
+    grid-template-rows: 1fr 2fr 1fr 2fr 14fr 1fr 1fr;
+    grid-template-columns: repeat(4, auto);
+    grid-column-gap: 0.8rem;
+    justify-items: center;
+}
+.card__back .project_Link {
+    display: flex;
+    color: #005086;
+    grid-row: 1;
+}
+.card__back .project_Link i {
+    font-size: 2.5rem;
+}
+.card__back .project_Link i:before {
+    background: linear-gradient(40deg, #005086, #438af3);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.card__back .project_Link .icon {
+    display: flex;
+    margin-left: 90px;
+}
+.card__back .project_Description {
+    grid-row-start: 3;
+    grid-row-end: 7;
+    grid-column: 1/-1;
+    font-size: 0.86em;
+    border-radius: 5px;
+    font-weight: 600;
+    line-height: 1.4em;
+    overflow: auto;
+    color: #005086;
+    padding-right: 10px;
+}
+.card__back .button {
+    grid-column: 1/-1;
+    justify-self: center;
+} */
