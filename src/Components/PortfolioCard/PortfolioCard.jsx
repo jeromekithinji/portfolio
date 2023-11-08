@@ -1,6 +1,6 @@
 import React from 'react'
 import './PortfolioCard.scss';
-import GuessingImage from '../../Assets/images/GuessingGame.png'
+import GuessingImage from '../../assets/images/GuessingGame.png'
 
 const PortfolioCard = () => {
   return (

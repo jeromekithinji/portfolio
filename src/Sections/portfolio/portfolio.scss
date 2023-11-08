@@ -1,0 +1,11 @@
+@import "../../assets/styles/variables";
+
+.portfolio {
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        z-index: -1;
+    }
+}
