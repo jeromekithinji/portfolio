@@ -6,6 +6,7 @@ import Hero from './Sections/hero/hero';
 import About from './Sections/about/about';
 import Porfolio from './Sections/portfolio/porfolio';
 import Experience from './Sections/experience/experience';
+import Contact from './Sections/contact/contact';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
             </section>
             <section className="App__content-section">
                 <Experience />
+            </section>
+            <section className="App__content-section">
+                <Contact />
             </section>
         </div>
       </div>

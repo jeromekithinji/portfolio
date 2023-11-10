@@ -18,7 +18,6 @@ const ExperienceList = () => {
                 <VerticalTimelineElement 
                     className='element-border' 
                     date={item.date}
-                    // icon={<img className="timeLine-icon" src={item.image} />}
                     icon={item.type === 'work' ? <MdWork /> : item.type === 'education' ? <MdSchool /> : <FaPlay />}
                     iconStyle={{ backgroundColor: 'white', color: 'rgb(0, 59, 92)', border: '3px solid rgb(0, 59, 92)', }}
                     contentStyle={{ color: 'rgb(0, 59, 92)', border: '2px solid rgb(0, 59, 92)'}}

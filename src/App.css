@@ -16,6 +16,7 @@
 
 .App__content {
     width: 83%;
+    background: url(./assets/images/bg.png) repeat;
 }
 
 .App__content-sections {

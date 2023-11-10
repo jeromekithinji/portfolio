@@ -37,14 +37,15 @@
 
 .page__header {
     color: $primary-color;
-    // background-color: $secondary-color;
     text-transform: uppercase;
-    // padding: 10px 0 10px 10px;
     margin-bottom: 30px;
     font-size: 40px;
     font-size: 2.4em;
     font-style: normal;
     font-weight:320;
+    background-color: $secondary-color;
+    padding: 10px 0 10px 10px;
+    width: 100%;
 }
 
 .page-section {
