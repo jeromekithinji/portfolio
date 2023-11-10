@@ -1,3 +1,7 @@
+.experienceList {
+    width: 100%;
+}
+
 .timeLine-icon {
     height: 60px;
     object-fit: contain;
@@ -5,12 +9,24 @@
     align-items: center;
     // background-color: rgb(33, 150, 243);
     border-radius: 50%;
-    border: 1px solid rgb(0, 59, 92);
+    // border: 1px solid rgb(0, 59, 92);
     // borderColor: 'rgb(0, 59, 92)';
 }
 
 .element-border {
     border-color: rgb(0, 59, 92);
+}
+
+.vertical-timeline-element-heading {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.vertical-timeline-element-heading-text {
+    display: flex;
+    flex-direction: column;
 }
 
 .vertical-timeline-element-subtitle {

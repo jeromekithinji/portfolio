@@ -1,20 +1,8 @@
 import projectImage from "../images/skills/adobe-xd.svg";
-// import projectImage from "../images/Beer-Api.png";
-
-
-const getBase64FromUrl = async (imageUrl) => {
-    const response = await fetch(imageUrl);
-    const blob = await response.blob();
-    return new Promise((resolve, reject) => {
-      const reader = new FileReader();
-      reader.readAsDataURL(blob);
-      reader.onload = () => resolve(reader.result);
-      reader.onerror = (error) => reject(error);
-    });
-  };
 
 export const experienceData = [
     {
+        type: "work",
         image: projectImage,
         title: "Frontend Developer | Freelancer.com",
         location: "London, UK",
@@ -28,6 +16,7 @@ export const experienceData = [
         ],
     },
     {
+        type: "education",
         image: projectImage,
         title: "Frontend Developer | Upwork",
         date: "Sep 2019 - Jan 2022",
@@ -38,15 +27,3 @@ export const experienceData = [
         ],
     },
 ];
-
-
-Promise.all(
-    experienceData.map(async (item) => {
-      if (item.imageUrl) {
-        item.imageBase64 = await getBase64FromUrl(item.imageUrl);
-      }
-      return item;
-    })
-  ).then((dataWithBase64) => {
-    console.log(dataWithBase64);
-  });
