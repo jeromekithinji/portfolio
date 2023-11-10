@@ -3,6 +3,8 @@ import "./experience.scss"
 import Marquee from "react-fast-marquee";
 import { skillsData } from '../../assets/data/SkillsData';
 import { skillsImage } from '../../utils/SkillsImage';
+import { experienceData } from "../../assets/data/experienceData"
+import ExperienceList from '../../Components/experienceList/experienceList';
 
 const Experience = () => {
   return (
@@ -11,6 +13,7 @@ const Experience = () => {
             Experience
         </p>
         <div className="experience__content">
+            <ExperienceList />
             <div className="experience__content-marquee">
                 <Marquee
                     gradient={false}

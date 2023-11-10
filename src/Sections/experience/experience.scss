@@ -3,6 +3,13 @@
 .experience {
     width: 100%;
     overflow-x: hidden;
+    object-fit: contain;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
 
     &__content-marquee {
         display: flex;

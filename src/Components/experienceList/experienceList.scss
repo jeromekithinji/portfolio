@@ -1,0 +1,24 @@
+.timeLine-icon {
+    height: 60px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    // background-color: rgb(33, 150, 243);
+    border-radius: 50%;
+    border: 1px solid rgb(0, 59, 92);
+    // borderColor: 'rgb(0, 59, 92)';
+}
+
+.element-border {
+    border-color: rgb(0, 59, 92);
+}
+
+.vertical-timeline-element-subtitle {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.vertical-timeline-element-point {
+    display: flex;
+    gap: 5px;
+}
