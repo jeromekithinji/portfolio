@@ -20,16 +20,16 @@ function App() {
             <section className="App__content-section">
                 <Hero />
             </section>
-            <section className="App__content-section">
+            <section id="about__section" className="App__content-section">
                 <About />
             </section>
-            <section className="App__content-section">
+            <section id="portfolio__section" className="App__content-section">
                 <Porfolio />
             </section>
-            <section className="App__content-section">
+            <section id="skills__section" className="App__content-section">
                 <Experience />
             </section>
-            <section className="App__content-section">
+            <section id="contact__section" className="App__content-section">
                 <Contact />
             </section>
         </div>
