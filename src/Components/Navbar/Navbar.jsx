@@ -47,7 +47,7 @@ const Navbar = () => {
                     <a className="navbar__header-name" href="#landing__section">
                         Jerome Kithinji
                     </a>
-                    <p className="navbar__header-title">Full-Stack Developer</p>
+                    <p className="navbar__header-title">Full-Stack Web Developer</p>
                 </div>
                 <div className="navbar__links">
                     <ul className="navbar__links-list">
