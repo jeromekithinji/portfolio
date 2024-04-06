@@ -80,14 +80,14 @@ const Navbar = () => {
                         <li className="navbar__link">
                             <a
                                 className="navbar__link-content"
-                                href="#skills__section"
+                                href="#experience__section"
                             >
                                 <img
                                     className="navbar__link-icon"
                                     src={SkillsIcon}
                                     alt="Skills Icon"
                                 />
-                                Skills
+                                Experience
                             </a>
                         </li>
                         <li className="navbar__link">

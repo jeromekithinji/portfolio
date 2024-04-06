@@ -7,6 +7,7 @@ import About from './Sections/about/about';
 import Porfolio from './Sections/portfolio/porfolio';
 import Experience from './Sections/experience/experience';
 import Contact from './Sections/contact/contact';
+import Skills from './Sections/Skills/skills';
 
 
 function App() {
@@ -23,10 +24,13 @@ function App() {
             <section id="about__section" className="App__content-section">
                 <About />
             </section>
+            {/* <section id="skills__section" className="App__content-section">
+                <Skills />
+            </section> */}
             <section id="portfolio__section" className="App__content-section">
                 <Porfolio />
             </section>
-            <section id="skills__section" className="App__content-section">
+            <section id="experience__section" className="App__content-section">
                 <Experience />
             </section>
             <section id="contact__section" className="App__content-section">

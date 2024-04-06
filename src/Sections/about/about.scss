@@ -33,6 +33,13 @@
             line-height: 2.8rem;
         }
     }
+
+    &__content-marquee {
+        padding-top: 30px;
+        display: flex;
+        width: 100%;
+        overflow-x: hidden;
+    }
 }
 
 .page__header {

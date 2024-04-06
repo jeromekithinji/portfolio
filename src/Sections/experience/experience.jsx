@@ -14,7 +14,7 @@ const Experience = () => {
         </p>
         <div className="experience__content">
             <ExperienceList />
-            <div className="experience__content-marquee">
+            {/* <div className="experience__content-marquee">
                 <Marquee
                     gradient={false}
                     speed={80}
@@ -32,7 +32,7 @@ const Experience = () => {
                         </div>
                     ))}
                 </Marquee>
-            </div>
+            </div> */}
         </div>
     </div>
   )

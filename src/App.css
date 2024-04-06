@@ -23,7 +23,7 @@
 .App__content-sections {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 50px;
 }
 
 @media (max-width: 992px) {
