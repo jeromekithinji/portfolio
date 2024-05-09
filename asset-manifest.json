@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e4702f97.css",
-    "main.js": "/react-portfolio/static/js/main.74bd1d58.js",
+    "main.js": "/react-portfolio/static/js/main.6e5f2a3e.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/Beer-Api.png": "/react-portfolio/static/media/Beer-Api.e9c33fb159099defa1b1.png",
     "static/media/Fundi254.png": "/react-portfolio/static/media/Fundi254.838c2783b10d42c1c582.png",
@@ -11,7 +11,7 @@
     "static/media/ticket_tracker.png": "/react-portfolio/static/media/ticket_tracker.55c0b3a1b5249b52b351.png",
     "static/media/Telkom.png": "/react-portfolio/static/media/Telkom.f523754fd5f43c90d334.png",
     "static/media/kanye_pokemon.png": "/react-portfolio/static/media/kanye_pokemon.2da9101931ae63871f30.png",
-    "static/media/Jerome Kithinji CV (WIthout Number).pdf": "/react-portfolio/static/media/Jerome Kithinji CV (WIthout Number).a66e1915ab0c7c1d593d.pdf",
+    "static/media/Jerome Kithinji CV.pdf": "/react-portfolio/static/media/Jerome Kithinji CV.a66e1915ab0c7c1d593d.pdf",
     "static/media/MorseCode.png": "/react-portfolio/static/media/MorseCode.d0aceb65edc4c7ee18b5.png",
     "static/media/rocket_icon.png": "/react-portfolio/static/media/rocket_icon.caa75a481f45eedae954.png",
     "static/media/deno.svg": "/react-portfolio/static/media/deno.96d4a63dc8a39aad6c76b5fb9e7afae8.svg",
@@ -96,11 +96,11 @@
     "static/media/resume.svg": "/react-portfolio/static/media/resume.96ee44cf0ac593fe7e606c3dd7772a4f.svg",
     "static/media/bulma.svg": "/react-portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.e4702f97.css.map": "/react-portfolio/static/css/main.e4702f97.css.map",
-    "main.74bd1d58.js.map": "/react-portfolio/static/js/main.74bd1d58.js.map",
+    "main.6e5f2a3e.js.map": "/react-portfolio/static/js/main.6e5f2a3e.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4702f97.css",
-    "static/js/main.74bd1d58.js"
+    "static/js/main.6e5f2a3e.js"
   ]
 }
