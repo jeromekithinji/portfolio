@@ -12,13 +12,13 @@ const About = () => {
         </p>
         <div className="about__texts">
             <p className="about__texts-text">
-                Hello! I'm Jerome Kithinji. I’m a Full Stack developer. I have a passion for all things technology and design, from software engineering to UI/UX. I enjoy building web applications and learning new technologies that bridge technology and user experience.
+                Hello! I'm Jerome Kithinji,  a Full Stack developer. I am passionate about all things technology and design, from software engineering to UI/UX. I enjoy building web applications and learning new technologies that bridge technology and user experience. I have over 3 years work experience as a developer in various projects in Europe and Africa; in the banking, telecommunications and service sectors.
             </p>
             <p className="about__texts-text">
-                I am currently pursuing my Master's in Advanced Computer Science at Concordia University. Alongside, I actively participate in various freelance projects, so if you need a website I'm your guy!
+                I am currently pursuing my Master's degree in Advanced Computer Science at Concordia University. Alongside, I actively participate in freelance projects, so if you need a website I'm your guy!
             </p>
             <p className="about__texts-text">
-                When I’m not at the computer, I’m usually discovering places to eat, chilling at the park, in the gym, or rewatching Marely & Me.
+                When I’m not on the computer, I am at the gym, discovering places to eat, chilling at the park, or rewatching Marely & Me.
             </p>
         </div>
         <div className="about__content-marquee">

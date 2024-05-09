@@ -5,7 +5,7 @@ import ContactIcon from "../../assets/icons/contact.svg";
 import PortfolioIcon from "../../assets/icons/portfolio.svg";
 import SkillsIcon from "../../assets/icons/skills.svg";
 import ResumeIcon from "../../assets/icons/resume.svg";
-import CV from "../../assets/pdf/Jerome Kithinji CV.pdf";
+import CV from "../../assets/pdf/Jerome Kithinji CV (WIthout Number).pdf";
 import { MdMenu, MdClose } from "react-icons/md";
 
 const Navbar = () => {
