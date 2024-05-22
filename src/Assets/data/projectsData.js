@@ -12,7 +12,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Teklom HRM System',
-        projectDesc: 'At Telkom Kenya, I redesign and redevelopment of the Human Resource Management System, using ReactJS and Node.js for development and using Figma for designing the interface. I conducted performance testing using Apache JMeter to optimize efficiency under high-traffic loads and ensured cross-platform reliability through browser compatibility testing with Selenium WebDriver.',
+        projectDesc: 'At Telkom Kenya, I re-designed and re-developed the Human Resource Management System. Using ReactJS and Node.js for development and using Figma for designing the interface. I conducted performance testing using Apache JMeter to optimize efficiency under high-traffic loads and ensured cross-platform reliability through browser compatibility testing with Selenium WebDriver.',
         tags: ['Figma', 'ReactJS', 'Node.js'],
         code: '',
         demo: 'https://www.figma.com/proto/oW8f7VkwTWcRkIaXat2JmX/Telkom?type=design&node-id=6-1531&t=SKKipaekttmg1uvM-1&scaling=min-zoom&page-id=1%3A353&starting-point-node-id=6%3A1531&show-proto-sidebar=1&mode=design',
