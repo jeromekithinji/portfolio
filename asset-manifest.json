@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e4702f97.css",
-    "main.js": "/react-portfolio/static/js/main.6e5f2a3e.js",
+    "main.js": "/react-portfolio/static/js/main.e7123573.js",
     "static/js/787.cf482a7c.chunk.js": "/react-portfolio/static/js/787.cf482a7c.chunk.js",
     "static/media/Beer-Api.png": "/react-portfolio/static/media/Beer-Api.e9c33fb159099defa1b1.png",
     "static/media/Fundi254.png": "/react-portfolio/static/media/Fundi254.838c2783b10d42c1c582.png",
@@ -96,11 +96,11 @@
     "static/media/resume.svg": "/react-portfolio/static/media/resume.96ee44cf0ac593fe7e606c3dd7772a4f.svg",
     "static/media/bulma.svg": "/react-portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
     "main.e4702f97.css.map": "/react-portfolio/static/css/main.e4702f97.css.map",
-    "main.6e5f2a3e.js.map": "/react-portfolio/static/js/main.6e5f2a3e.js.map",
+    "main.e7123573.js.map": "/react-portfolio/static/js/main.e7123573.js.map",
     "787.cf482a7c.chunk.js.map": "/react-portfolio/static/js/787.cf482a7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4702f97.css",
-    "static/js/main.6e5f2a3e.js"
+    "static/js/main.e7123573.js"
   ]
 }
