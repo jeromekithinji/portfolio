@@ -27,7 +27,7 @@ export const experienceData = [
         image: nology,
         title: "Full Stack Developer",
         location: "London, UK | Remote",
-        date: "February 2022 - March 2023",
+        date: "August 2021 - February 2023",
         details: [
             "Working as a Full-Stack Developer at SparkStrand, a digital agency.",
             "Developed and launched multiple custom web applications for clients across different industries.",
@@ -43,7 +43,7 @@ export const experienceData = [
     {
         type: "work",
         image: techsavannah,
-        title: "Softwarer Developer | Internship",
+        title: "Software Developer | Internship",
         location: "Nairobi, Kenya | Remote",
         date: "December 2021 - April 2022",
         details: [
@@ -55,9 +55,9 @@ export const experienceData = [
     {
         type: "work",
         image: myCredit,
-        title: "Information Technology Intern| Internship",
+        title: "Information Technology Intern | Internship",
         location: "Nairobi, Kenya",
-        date: "June 2019 - August 2019",
+        date: "June 2019 - September 2019",
         details: [
             "Maintaining the bank's computer systems, servers, and networks to ensure they are always operational and up-to-date.",
             "Providing technical support to the bank's employees to ensure they can work efficiently and productively.",
