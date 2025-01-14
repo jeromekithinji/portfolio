@@ -15,7 +15,10 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: npm run build
+      - name: Build the project
+        run: |
+          echo "CI=false" >> $GITHUB_ENV
+          npm run build
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
