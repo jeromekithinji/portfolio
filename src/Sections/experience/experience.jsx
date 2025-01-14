@@ -1,9 +1,9 @@
 import React from 'react'
 import "./experience.scss"
 import Marquee from "react-fast-marquee";
-import { skillsData } from '../../assets/data/SkillsData';
+import { skillsData } from '../../Assets/data/SkillsData';
 import { skillsImage } from '../../utils/SkillsImage';
-import { experienceData } from "../../assets/data/experienceData"
+import { experienceData } from "../../Assets/data/experienceData"
 import ExperienceList from '../../Components/experienceList/experienceList';
 
 const Experience = () => {

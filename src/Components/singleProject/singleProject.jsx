@@ -1,7 +1,7 @@
 import React from 'react'
 import "./singleProject.scss"
 import { FaPlay, FaCode } from 'react-icons/fa';
-import placeholder from "../../assets/images/projects/Beer-Api.png"
+import placeholder from "../../Assets/images/projects/Beer-Api.png"
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import "./about.scss"
 import Marquee from "react-fast-marquee";
-import { skillsData } from '../../assets/data/SkillsData';
+import { skillsData } from '../../Assets/data/SkillsData';
 import { skillsImage } from '../../utils/SkillsImage';
 
 const About = () => {

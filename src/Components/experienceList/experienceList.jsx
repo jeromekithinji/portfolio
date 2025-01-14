@@ -1,6 +1,6 @@
 import React from 'react'
 import "./experienceList.scss"
-import { experienceData } from "../../assets/data/experienceData"
+import { experienceData } from "../../Assets/data/experienceData"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { FaPlay, FaCode } from 'react-icons/fa';

@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Navbar.scss";
-import AstronautIcon from "../../assets/icons/astronaut.svg";
-import ContactIcon from "../../assets/icons/contact.svg";
-import PortfolioIcon from "../../assets/icons/portfolio.svg";
-import SkillsIcon from "../../assets/icons/skills.svg";
-import ResumeIcon from "../../assets/icons/resume.svg";
-import CV from "../../assets/pdf/Jerome Kithinji CV.pdf";
+import AstronautIcon from "../../Assets/icons/astronaut.svg";
+import ContactIcon from "../../Assets/icons/contact.svg";
+import PortfolioIcon from "../../Assets/icons/portfolio.svg";
+import SkillsIcon from "../../Assets/icons/skills.svg";
+import ResumeIcon from "../../Assets/icons/resume.svg";
+import CV from "../../Assets/pdf/Jerome Kithinji CV.pdf";
 import { MdMenu, MdClose } from "react-icons/md";
 
 const Navbar = () => {

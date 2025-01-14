@@ -1,7 +1,7 @@
 import React from 'react';
 import "./projectList.scss";
 import SingleProject from '../singleProject/singleProject';
-import { projectsData } from '../../assets/data/projectsData';
+import { projectsData } from '../../Assets/data/projectsData';
 
 const ProjectList = () => {
   return (
