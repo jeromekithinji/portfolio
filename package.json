@@ -13,7 +13,7 @@
         "react-icons": "^4.11.0",
         "react-scripts": "5.0.1",
         "react-vertical-timeline-component": "^3.6.0",
-        "sass": "^1.62.1",
+        "sass": "^1.83.1",
         "typewriter-effect": "^2.20.1",
         "web-vitals": "^2.1.4"
     },
@@ -24,7 +24,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "sass:watch": "node-sass --watch src/components/**/*.scss -o src/components --output-style compressed"
+        "sass:watch": "sass --watch src/components/**/*.scss:src/components --style compressed"
     },
     "eslintConfig": {
         "extends": [
@@ -46,7 +46,6 @@
     },
     "devDependencies": {
         "@iconify/react": "^4.1.1",
-        "gh-pages": "^6.1.1",
-        "node-sass": "^7.0.3"
+        "gh-pages": "^6.1.1"
     }
 }
