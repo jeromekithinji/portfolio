@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Grants write access to the repository
     steps:
       - uses: actions/checkout@v3
       - name: Set up Node.js
@@ -15,7 +17,9 @@ jobs:
         with:
           node-version: '16'
       - run: npm install
-      - run: npm run build
+      - name: Build the project
+        run: CI=false npm run build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
