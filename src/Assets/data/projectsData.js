@@ -8,10 +8,21 @@ import morseImage from "../images/projects/MorseCode.png";
 import fundi from "../images/projects/Fundi254.png";
 import telkomImage from "../images/projects/Telkom.png";
 import theftBait from "../images/projects/TheftBait.png";
+import slimz from "../images/projects/Slimz-detailing.png";
+
 
 export const projectsData = [
   {
     id: 1,
+    projectName: 'Slimz Detailing',
+    projectDesc: 'A responsive website for a premium car detailing service in the UK. Designed in Figma and built using React.js, the site showcases services, pricing, gallery, and contact options for potential customers.',
+    tags: ['React', 'Figma'],
+    code: '', // Add your GitHub link here if it's open-source
+    demo: 'https://slimzdetailing.co.uk/',
+    image: slimz // You can add a screenshot or banner image URL here
+  },
+  {
+    id: 2,
     projectName: "Theft Bait",
     projectDesc: "Theft Bait is a smart, secure, and stylish anti-theft backpack designed for commuters, travelers, and adventurers seeking peace of mind. Developed during the UpStart 2025 entrepreneurship competition, our team had 24 hours to create a product, build a business model, and pitch it to investors. My role in the project was designing the company website using Figma, ensuring a visually compelling and brand-aligned layout. Additionally, I worked on a digital presence strategy to establish brand identity and engagement across online platforms, helping position the product for market success.",
     tags: ["Figma"],
@@ -20,7 +31,7 @@ export const projectsData = [
     image: theftBait,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Teklom HRM System",
     projectDesc:
       "At Telkom Kenya, I re-designed and re-developed the Human Resource Management System. Using ReactJS and Node.js for development and using Figma for designing the interface. I conducted performance testing using Apache JMeter to optimize efficiency under high-traffic loads and ensured cross-platform reliability through browser compatibility testing with Selenium WebDriver.",
@@ -30,7 +41,7 @@ export const projectsData = [
     image: telkomImage,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Fundi254",
     projectDesc:
       "Collaborated with 3 developers on the development of the Fundi254 website and web application. Fundi254 revolutionizes the service industry in Kenya by connecting specialists like handymen and beauticians with customers, like to how Uber connects taxi drivers with passengers. This platform streamlines the process of finding and booking local service professionals, offering a seamless, user-friendly interface for both providers and clients to interact, schedule services, and manage transactions efficiently.",
@@ -40,7 +51,7 @@ export const projectsData = [
     image: fundi,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Calculator",
     projectDesc:
       "A calculator implemented using HTML, CSS and JavaScript. It utilises display grid to arrange buttons in the appropriate positions and display flex for responsiveness on both PC and Mobile.",
@@ -50,7 +61,7 @@ export const projectsData = [
     image: calculatorImage,
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Word Guessing Game",
     projectDesc:
       "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
@@ -60,7 +71,7 @@ export const projectsData = [
     image: guessingImage,
   },
   {
-    id: 6,
+    id: 7,
     projectName: "Morse-Code Translator",
     projectDesc:
       "A JavaScript program that takes some English text as input and returns the morse code equivalent. It was coded using a TDD approach with Jest.",
@@ -70,7 +81,7 @@ export const projectsData = [
     image: morseImage,
   },
   {
-    id: 7,
+    id: 8,
     projectName: "Punk API",
     projectDesc:
       "This project fetches data from an API created by Brewdog containing various pieces of information pertaining to some of their beers. It displays information about each individual beer in a card and users can search or filter by certain attributes to find more specifically what they are looking for.",
@@ -80,7 +91,7 @@ export const projectsData = [
     image: beerImage,
   },
   {
-    id: 8,
+    id: 9,
     projectName: "Ticket Tracker",
     projectDesc:
       "A web app that allows you to track the number of project tickets different employees within a company have completed. You can change the number for each employee. This was a paired programming task done with two colleagues on the _nology bootcamp.",
@@ -90,7 +101,7 @@ export const projectsData = [
     image: ticketTrackerImage,
   },
   {
-    id: 9,
+    id: 10,
     projectName: "Pokemon and Kanye Quotes API",
     projectDesc:
       "A web app that fetches data from a 2 APIs. Fetching and displayingg tweets by Kanye West and searching for different Pokemons to display their information. Data is randomly fetched and updated through user input in the search bar.",
